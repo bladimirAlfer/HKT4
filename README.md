@@ -169,7 +169,10 @@ export default function Group() {
   )
 }
 
+```
+
 5. Escribimos el siguiente código en `persons.js`:
+```js 
 import { useEffect, useState } from "react"
 import { fetchPersons } from "../../api/dataservice" // You need to implement this
 import 'devextreme/data/odata/store';
@@ -213,9 +216,8 @@ export default function Person() {
     </DataGrid>
   );
 }
-
-5. Otra manera de hacerlo es descargar la carpeta src de este repositorio y reemplazarla en el proyecto devextreme app-name creado. 
- 
 ```
+6. Otra manera de hacerlo es descargar la carpeta src de este repositorio y reemplazarla en el proyecto devextreme app-name creado. 
+ 
 
 
